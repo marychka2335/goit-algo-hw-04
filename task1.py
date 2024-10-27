@@ -50,11 +50,9 @@ def test_sorting(sort_function, arr):
 
 if __name__ == "__main__":
     print("Тестування алгоритмів сортування:")
-    # Розміри наборів даних для тестування
     array_sizes = [10, 100, 1000, 10000]
 
     for arr_size in array_sizes:
-        # Генерація випадкових списків
         test_data = [random.randint(0, 10000) for _ in range(arr_size)]
         test_data_copy1 = test_data.copy()
         test_data_copy2 = test_data.copy()
